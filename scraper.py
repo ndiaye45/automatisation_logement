@@ -71,7 +71,7 @@ def fetch_logements() -> list[dict]:
         try:
             p = dict(PARAMS)
             p["page"] = page
-            r = requests.get(API_URL, params=p, headers=HEADERS, timeout=15)
+            r = requests.post(API_URL, json=p, headers=HEADERS, timeout=15)
 
             if r.status_code != 200:
                 log.warning(f"API CROUS status {r.status_code} – page {page}")
