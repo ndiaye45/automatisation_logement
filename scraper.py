@@ -289,6 +289,24 @@ def run():
     log.info(f"  Vérification toutes les {INTERVALLE_MINUTES} minutes")
     log.info("═══════════════════════════════════════════")
 
+    if os.environ.get("CI") == "true":
+        # Run once for CI environments like GitHub Actions
+        seen = load_seen()
+        logements = fetch_logements()
+
+        new = [l for l in logements if l["id"] not in seen]
+
+        if new:
+            log.info(f"🆕 {len(new)} nouveau(x) logement(s) !")
+            send_email(new)
+            for l in new:
+                seen.add(l["id"])
+            save_seen(seen)
+        else:
+            total = len(logements)
+            log.info(f"Aucune nouveauté. ({total} logement(s) en ligne, déjà tous vus)")
+        return
+
     interval = INTERVALLE_MINUTES * 60
 
     while True:
