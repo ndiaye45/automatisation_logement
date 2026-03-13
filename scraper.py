@@ -30,7 +30,7 @@ log = logging.getLogger(__name__)
 # ── Constantes ────────────────────────────────────────────────────────────────
 # API JSON interne du CROUS (reverse-engineered depuis le site)
 # Les bounds correspondent exactement à ton lien Orléans
-API_URL = "https://trouverunlogement.lescrous.fr/api/v1/tools/42/search"
+API_URL = "https://trouverunlogement.lescrous.fr/api/v1/tools/42/accommodations"
 PARAMS  = {
     "bounds": "1.8757578_47.9335389_1.9487114_47.8132802",
     "page":   1,
@@ -71,7 +71,7 @@ def fetch_logements() -> list[dict]:
         try:
             p = dict(PARAMS)
             p["page"] = page
-            r = requests.post(API_URL, json=p, headers=HEADERS, timeout=15)
+            r = requests.get(API_URL, params=p, headers=HEADERS, timeout=15)
 
             if r.status_code != 200:
                 log.warning(f"API CROUS status {r.status_code} – page {page}")
