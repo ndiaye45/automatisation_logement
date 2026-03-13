@@ -1,0 +1,39 @@
+2026-03-13 02:06:41,509 [INFO] ═══════════════════════════════════════════
+2026-03-13 02:06:41,511 [INFO]   🎓 Démarrage surveillance CROUS Orléans  
+2026-03-13 02:06:41,512 [INFO]   Vérification toutes les 5 minutes
+2026-03-13 02:06:41,514 [INFO] ═══════════════════════════════════════════
+2026-03-13 02:06:41,691 [WARNING] API CROUS status 404 – page 1
+2026-03-13 02:08:35,805 [INFO] ═══════════════════════════════════════════
+2026-03-13 02:08:35,815 [INFO]   🎓 Démarrage surveillance CROUS Orléans  
+2026-03-13 02:08:35,816 [INFO]   Vérification toutes les 5 minutes
+2026-03-13 02:08:35,818 [INFO] ═══════════════════════════════════════════
+2026-03-13 02:08:36,044 [WARNING] API CROUS status 404 – page 1
+2026-03-13 02:08:36,430 [INFO] CROUS HTML fallback : 0 logement(s)
+2026-03-13 02:08:36,434 [INFO] Aucune nouveauté. (0 logement(s) en ligne, déjà tous vus)
+2026-03-13 02:08:36,436 [INFO] ⏳ Prochain check dans 5 min...
+
+2026-03-13 08:20:33,917 [WARNING] API CROUS status 404 – page 1
+2026-03-13 08:20:34,352 [INFO] CROUS HTML fallback : 0 logement(s)
+2026-03-13 08:20:34,356 [INFO] Aucune nouveauté. (0 logement(s) en ligne, déjà tous vus)
+2026-03-13 08:20:34,358 [INFO] ⏳ Prochain check dans 5 min...
+
+2026-03-13 14:31:29,074 [WARNING] API CROUS status 404 – page 1
+2026-03-13 14:31:29,381 [INFO] CROUS HTML fallback : 0 logement(s)
+2026-03-13 14:31:29,383 [INFO] Aucune nouveauté. (0 logement(s) en ligne, déjà tous vus)
+2026-03-13 14:31:29,385 [INFO] ⏳ Prochain check dans 5 min...
+
+2026-03-13 14:36:55,721 [WARNING] API CROUS status 404 – page 1
+2026-03-13 14:36:55,987 [INFO] CROUS HTML fallback : 0 logement(s)
+2026-03-13 14:36:55,989 [INFO] Aucune nouveauté. (0 logement(s) en ligne, déjà tous vus)
+2026-03-13 14:36:55,991 [INFO] ⏳ Prochain check dans 5 min...
+
+2026-03-13 14:42:24,355 [WARNING] API CROUS status 404 – page 1
+2026-03-13 14:42:24,796 [INFO] CROUS HTML fallback : 0 logement(s)
+2026-03-13 14:42:24,799 [INFO] Aucune nouveauté. (0 logement(s) en ligne, déjà tous vus)
+2026-03-13 14:42:24,803 [INFO] ⏳ Prochain check dans 5 min...
+
+2026-03-13 14:47:48,924 [WARNING] API CROUS status 404 – page 1
+2026-03-13 14:47:49,206 [INFO] CROUS HTML fallback : 0 logement(s)
+2026-03-13 14:47:49,210 [INFO] Aucune nouveauté. (0 logement(s) en ligne, déjà tous vus)
+2026-03-13 14:47:49,215 [INFO] ⏳ Prochain check dans 5 min...
+
