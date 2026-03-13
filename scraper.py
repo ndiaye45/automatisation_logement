@@ -30,9 +30,10 @@ log = logging.getLogger(__name__)
 # ── Constantes ────────────────────────────────────────────────────────────────
 # API JSON interne du CROUS (reverse-engineered depuis le site)
 # Les bounds correspondent exactement à ton lien Orléans
-API_URL = "https://trouverunlogement.lescrous.fr/api/v1/tools/42/accommodations"
+API_URL = "https://trouverunlogement.lescrous.fr/api/v1/search"
 PARAMS  = {
     "bounds": "1.8757578_47.9335389_1.9487114_47.8132802",
+    "tool": "42",
     "page":   1,
 }
 HEADERS = {
